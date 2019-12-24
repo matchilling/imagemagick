@@ -14,5 +14,3 @@ RUN yum -y update && \
     yum localinstall -y libraqm.rpm imagemagick*.rpm && \
     rm -f imagemagick*.rpm && \
     yum clean all
-
-ENTRYPOINT ["convert"]
